@@ -17,10 +17,10 @@ const Footer = () => {
 
 			<div className="flex flex-col items-center">
 				<h1 className="heading lg:max-w-[45vw]">
-					Have a dataset, challenge, or idea?
+					Ready to automate your video production with AI?
 				</h1>
 				<p className="text-white-200 md:mt-10 my-5 text-center">
-					Let's collaborate to uncover insights, optimize processes, and create intelligent solutions through data science.
+					Let's collaborate to build scalable pipelines, automate video workflows, and create high-impact generated content.
 				</p>
 				<a href="mailto:sayudhrk1919@gmail.com">
 					<MagicButton

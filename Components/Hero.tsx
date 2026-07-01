@@ -43,7 +43,7 @@ const Hero = () => {
 			<div className="flex justify-center relative my-20 z-10">
 				<div className="max-w-[89vw] md:max-w-3xl lg:max-w-[85vw] flex flex-col items-center justify-center">
 					<p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-100">
-						Data Analyst • Data Engineer • Data Scientist
+						AI Video Generation • Workflow Automation • Python & n8n
 					</p>
 
 					{/**
@@ -52,7 +52,7 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
 					<TextGenerateEffect
-						words={`Hi! I'm Sayudh Khatavkar\nExploring the power of\ndata to create meaningful impact`}
+						words={`Hi! I'm Sayudh Khatavkar\nAutomating Creative Production\nwith Generative AI & Python`}
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
 					/>
 

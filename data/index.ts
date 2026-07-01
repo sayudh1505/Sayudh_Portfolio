@@ -1,14 +1,14 @@
 export const navItems = [
 	{ name: "About", link: "#about" },
 	{ name: "Projects", link: "#projects" },
-	{ name: "Resume", link: "/Resume.pdf" },
+	{ name: "Resume", link: "/Sayudh_Resume.pdf" },
 	{ name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
 	{
 		id: 1,
-		title: "I transform complex data into actionable insights, enabling data-driven decision making",
+		title: "I build end-to-end automated pipelines that turn prompts and content strategies into high-quality AI videos",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -28,8 +28,8 @@ export const gridItems = [
 	},
 	{
 		id: 3,
-		title: "My tech stack",
-		description: "I constantly try to improve",
+		title: "My tech  stack",
+		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-2",
 		imgClassName: "",
 		titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
 	},
 	{
 		id: 4,
-		title: "Data Science enthusiast with a passion for solving real-world problems through data.",
+		title: "AI Video Automation Engineer with a passion for streamlining generative content creation workflows.",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently building AI-powered Data Solutions",
-		description: "The Data Lab",
+		title: "Currently building AI-powered automated video pipelines",
+		description: "The Generative Video Lab",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
 		titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,36 +72,36 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "AeroNexus AI– Airport Revenue Optimization Platform",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "/ui.earth.com",
+		title: "AI-Powered Instagram Reels Generator",
+		des: "Automated pipeline that converts a text topic into a complete Instagram Reel. Generates video clips via Runway ML, AI voiceovers via ElevenLabs, and compiles the final video using MoviePy.",
+		img: "/instagram.jpg",
+		iconLists: ["/git.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+		link: "https://github.com/sayudh1505/AI-Powered-Instagram-Reels-Generator",
 	},
 	{
 		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "/ui.yoom.com",
+		title: "Automated YouTube Shorts News Bot",
+		des: "An end-to-end news-to-video pipeline fetching headlines via NewsAPI, generating video scenes with Pika Labs, and producing narrations with ElevenLabs, automated using Python.",
+		img: "/youtube.jpg",
+		iconLists: ["/git.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+		link: "https://github.com/sayudh1505/Automated-YouTube-Shorts-News-Bot",
 	},
 	{
 		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "/ui.aiimg.com",
+		title: "Text to Video Generation Pipeline",
+		des: "Custom inference pipeline utilizing Hugging Face Diffusers and ModelScope text-to-video models to generate high-quality video clips, utilizing mixed-precision FP16 and CPU offloading.",
+		img: "/text_to_video.jpg",
+		iconLists: ["/git.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+		link: "https://github.com/sayudh1505/Text-to-Video-Generation-Pipeline",
 	},
-	{
-		id: 4,
-		title: "Animated Apple Iphone 3D Website",
-		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-		img: "/p4.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-		link: "/ui.apple.com",
-	},
+	// {
+	// 	id: 4,
+	// 	title: "AI Avatar & Educational Video Creator",
+	// 	des: "Automated production system generating AI avatar spokespeople and faceless educational content using Stable Diffusion for custom backgrounds and HeyGen for animated avatar synthesis.",
+	// 	img: "/p4.svg",
+	// 	iconLists: ["/git.svg", "/re.svg", "/tail.svg", "/ts.svg"],
+	// 	link: "https://github.com/sayudh1505",
+	// },
 ];
 
 export const testimonials = [
@@ -174,37 +174,21 @@ export const workExperience = [
 	{
 		id: 1,
 		title: "Research & Strategy Intern",
-		company: "Skylark Lifestyles Pvt. Ltd. – Aeronext Solutions ",
-		desc: "Applied data analytics and machine learning to optimize airport operations, commercial space utilization, and HVAC efficiency, driving improved passenger experience and revenue growth through data-driven insights.",
+		company: "Skylark Lifestyles Pvt. Ltd. – Aeronext Solutions",
+		desc: "Engineered passenger flow predictions and comparison models, developed cost-saving operational dashboards, and compiled implementation plans for pilot project deployments.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 		timeline: "June 2025 – July 2025",
 	},
 	{
 		id: 2,
-		title: "Associate Data Analyst Intern",
+		title: "Automation Intern",
 		company: "LogisticsNow Pvt Ltd",
-		desc: "Applied data analytics and preprocessing techniques to optimize logistics operations, improve supply chain data quality, and enhance delivery efficiency through route optimization strategies.",
-		className: "md:col-span-2", // change to md:col-span-2
+		desc: "Automated report generation and content summary emails with n8n and Python workflows. Streamlined extraction pipelines for over 100K logistics records, reducing reporting cycles by 30%.",
+		className: "md:col-span-2",
 		thumbnail: "/exp2.svg",
 		timeline: "January 2026 – May 2026",
 	},
-	// {
-	// 	id: 3,
-	// 	title: "Freelance App Dev Project",
-	// 	company: "",
-	// 	desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-	// 	className: "md:col-span-2", // change to md:col-span-2
-	// 	thumbnail: "/exp3.svg",
-	// },
-	// {
-	// 	id: 4,
-	// 	title: "Lead Frontend Developer",
-	// 	company: "",
-	// 	desc: "Developed and maintained user-facing features using modern frontend technologies.",
-	// 	className: "md:col-span-2",
-	// 	thumbnail: "/exp4.svg",
-	// },
 ];
 
 export const socialMedia = [

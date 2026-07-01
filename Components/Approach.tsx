@@ -13,9 +13,9 @@ const Approach = () => {
 			<div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
 				{/* add des prop */}
 				<Card
-					title="Data Exploration & Strategy"
+					title="Scripting & Prompt Optimization"
 					icon={<AceternityIcon order="Phase 1" />}
-					des="We define the business problem, identify key data sources, and perform exploratory data analysis (EDA) to uncover initial patterns and establish a solid modeling roadmap."
+					des="We define the content topic, fetch live data (e.g. via APIs), and engineer dynamic LLM prompt templates to script highly engaging narratives tailored to target audiences."
 				>
 					<CanvasRevealEffect
 						animationSpeed={5.1}
@@ -24,9 +24,9 @@ const Approach = () => {
 					/>
 				</Card>
 				<Card
-					title="Predictive Modeling & Optimization"
+					title="Generative Media & Voice Synthesis"
 					icon={<AceternityIcon order="Phase 2" />}
-					des="Once the data is preprocessed, I construct robust machine learning models, engineer features, and validate performance to ensure high predictive accuracy and generalization."
+					des="I generate high-fidelity cinematic video scenes using AI generation models (like Runway ML, Kling, Pika Labs) and synthesize natural voiceovers with ElevenLabs, maintaining strict quality checks."
 				>
 					<CanvasRevealEffect
 						animationSpeed={3}
@@ -44,9 +44,9 @@ const Approach = () => {
 					{/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
 				</Card>
 				<Card
-					title="Insights & Deployment"
+					title="Automated Assembly & Deployment"
 					icon={<AceternityIcon order="Phase 3" />}
-					des="I deploy model pipelines, integrate them into production or interactive dashboards, and translate complex outputs into actionable business strategies for decision-makers."
+					des="I automate the stitching of visual assets, audio tracks, and dynamic subtitles using Python (MoviePy) and integrate workflows using n8n for scheduled, zero-touch video publication."
 				>
 					<CanvasRevealEffect
 						animationSpeed={3}

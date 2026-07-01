@@ -52,8 +52,8 @@ export const BentoGridItem = ({
 	titleClassName?: string;
 	spareImg?: string;
 }) => {
-	const leftLists = ["Python", "SQL", "C++", "PySpark"];
-	const rightLists = ["AWS", "Azure", "PowerBI", "Tableau"];
+	const leftLists = ["Python", "n8n", "Stable Diffusion", "Runway ML"];
+	const rightLists = ["Kling AI", "Pika Labs", "ElevenLabs", "MoviePy"];
 
 	const [copied, setCopied] = useState(false);
 
@@ -133,7 +133,15 @@ export const BentoGridItem = ({
 					<div
 						className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
 					>
-						{title}
+						{typeof title === "string" && (title.includes("  ") || title.match(/<br\s*\/?>/i)) ? (
+							title.split(/<br\s*\/?>|\s{2,}/i).map((line, idx) => (
+								<span key={idx} className="block">
+									{line.trim()}
+								</span>
+							))
+						) : (
+							title
+						)}
 					</div>
 
 					{/* for the github 3d globe */}

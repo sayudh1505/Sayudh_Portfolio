@@ -1,6 +1,6 @@
 "use client";
 
-import { FaLocationArrow } from "react-icons/fa6";
+import { FaLocationArrow, FaGithub } from "react-icons/fa6";
 
 import { projects } from "@/data";
 
@@ -55,26 +55,10 @@ const RecentProjects = () => {
 								{item.des}
 							</p>
 
-							<div className="flex items-center justify-between mt-auto pt-3">
-								<div className="flex items-center">
-									{item.iconLists.map((icon, index) => (
-										<div
-											key={index}
-											className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-											style={{
-												transform: `translateX(-${5 * index + 2}px)`,
-											}}
-										>
-											<img src={icon} alt="icon5" className="p-2" />
-										</div>
-									))}
-								</div>
-
-								<div className="flex justify-center items-center">
-									<p className="flex lg:text-xl md:text-xs text-sm text-purple">
-										Check Live Site
-									</p>
-									<FaLocationArrow className="ms-3" color="#CBACF9" />
+							<div className="flex items-center justify-center mt-auto pt-4 w-full">
+								<div className="flex justify-center items-center gap-2.5 w-full bg-[#161a31] border border-white/[0.1] rounded-xl py-3.5 text-purple font-semibold text-sm group-hover:bg-purple group-hover:text-white transition duration-300">
+									<FaGithub className="text-lg" />
+									<span>View GitHub Repository</span>
 								</div>
 							</div>
 						</a>
